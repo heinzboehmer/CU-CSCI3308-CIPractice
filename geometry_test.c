@@ -158,9 +158,7 @@ START_TEST(test_2d_area)
     c.y = 2;
     ck_assert(coord_2d_area_triangle(&a, &b, &c) == 1.0);
 
-    a.x = a.y = 0;
-    b.x = b.y = 0;
-    c.x = c.y = 0;
+    a.x = a.y = b.x = b.y = c.x = c.y = 0;
     ck_assert(coord_2d_area_triangle(&a, &b, &c) == 0.0);
 
 }
