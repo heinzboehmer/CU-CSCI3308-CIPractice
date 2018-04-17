@@ -1,2 +1,3 @@
 language: c
-install: make get-deps
+install: make dep
+target: make test
