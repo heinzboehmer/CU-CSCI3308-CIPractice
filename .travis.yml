@@ -1,3 +1,3 @@
 language: c
-install: make dep
+install: sudo apt-get install check
 target: make test
